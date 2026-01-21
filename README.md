@@ -1,6 +1,6 @@
 Text-to-LLM-to-Output (AI Pipeline Backend)
 
-This is my first backend project where I connected a visual drag-and-drop AI pipeline builder (ReactFlow frontend) with a FastAPI backend.
+This is my first frontend + API + backend project where I connected a visual drag-and-drop AI pipeline builder (ReactFlow frontend) with a FastAPI backend.
 The backend receives nodes and edges from the UI and returns:
 1.)   Total number of nodes
 2.)   Total number of edges
