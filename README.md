@@ -5,7 +5,7 @@ The backend receives nodes and edges from the UI and returns:
 1.)   Total number of nodes
 2.)   Total number of edges
 3.)   Whether the pipeline forms a valid DAG
-The frontend can be completely changed or redesigned — the backend works independently as long as it receives the JSON structure.
+The frontend can be completely changed or redesigned — the backend works independently as long as it receives the expected input.
 
 
 Features
@@ -14,7 +14,7 @@ FastAPI backend
 CORS enabled (so any UI can connect)
 Receives pipeline data (nodes + edges)
 Performs simple DAG validation
-Returns results as JSON
+Returns results as expected input
 
 
 How it Works
@@ -27,6 +27,5 @@ This project helped me learn:
 a)  API creation
 b) Frontend → Backend communication
 
-JSON handling
 
 Basic AI pipeline structure
